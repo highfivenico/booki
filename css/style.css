@@ -362,6 +362,38 @@ header {
   margin-top: 33px;
 }
 
+/****** Activités ***********/
+
+#activites {
+  /* width: 100%; */
+  margin: 35px 0;
+  padding: 30px;
+}
+
+.activites-cards {
+  margin-top: 33px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.activites-cards a {
+  width: 23%;
+}
+
+.activites-cards .card {
+  padding: 0;
+}
+
+.activites-cards img {
+  width: 100%;
+  height: 380px;
+  border-radius: 20px 20px 0 0;
+}
+
+.activites-cards .card-title {
+  padding: 20px 19px;
+}
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
