@@ -373,7 +373,6 @@ header {
 .activites-cards {
   margin-top: 33px;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -394,6 +393,28 @@ header {
 .activites-cards .card-title {
   padding: 20px 19px;
 }
+
+/****** Footer ***********/
+
+footer {
+  background: var(--main-bg-color);
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  gap: 2%;
+}
+
+.about,
+.footer-hebergements,
+.assistance {
+  width: 33%;
+}
+
+footer li {
+  list-style: none;
+  padding-top: 16px;
+}
+
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
